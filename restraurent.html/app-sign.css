@@ -1,0 +1,203 @@
+.circle {
+  width: 106px;
+  height: 106px;
+  margin-left: 180px;
+  margin-top: 90px;
+}
+.tick {
+  width: 64.63px;
+  height: 43.95px;
+  margin-left: -90px;
+
+  position: relative;
+  top: -27px;
+}
+.check {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+  margin-top: 40px;
+  color: #000000;
+}
+.check2 {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 40px;
+  color: rgba(0, 0, 0, 0.48);
+}
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  margin-left: 87px;
+  margin-top: 41px;
+}
+.photoshooto {
+  width: 187px;
+  height: 26px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+
+  margin-top: -46px;
+  margin-left: 147px;
+  color: #ef481b;
+}
+.tagline {
+  width: 138px;
+  height: 12px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  margin-left: 152px;
+  margin-top: 2px;
+
+  color: #0b537b;
+}
+.box {
+  width: 449px;
+  height: 472px;
+  background: #ffffff;
+  box-shadow: 8px 13px 18px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+}
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #274c77;
+  height: 100px;
+}
+
+.heading {
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-left: 30px;
+  font-size: 40px;
+}
+
+.signup {
+  background-color: #274c77;
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  width: 100px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  float: right;
+  margin-top: -35px;
+  margin-right: 20px;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.loginpage {
+  background-color: white;
+  width: 800px;
+  min-height: 300px;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 250px;
+  text-align: center;
+  padding: 10px;
+}
+
+.form {
+  padding-top: 30px;
+  border: auto;
+  position: relative;
+  left: 70px;
+}
+
+#email {
+  height: 40px;
+  width: 300px;
+  border-radius: 4px;
+  border: solid 1px grey;
+}
+
+#password {
+  height: 40px;
+  width: 300px;
+  border-radius: 4px;
+  border: solid 1px grey;
+}
+
+:placeholder-shown {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+#button {
+  width: 300px;
+  height: 40px;
+  border-radius: 4px;
+
+  text-transform: capitalize;
+  color: #ffffff;
+  background-color: #274c77;
+
+  font-size: 18px;
+}
+
+.loginheading {
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+.optiongender {
+  text-align: center;
+}
+#button {
+  width: 300px;
+  height: 40px;
+  border-radius: 4px;
+
+  text-transform: capitalize;
+  color: #ffffff;
+  background-color: #274c77;
+
+  font-size: 18px;
+  position: relative;
+
+  margin-top: 5px;
+}
+a {
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  text-decoration: none;
+
+  position: absolute;
+  top: 10px;
+  left: 120px;
+}

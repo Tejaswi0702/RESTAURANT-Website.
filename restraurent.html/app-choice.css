@@ -1,0 +1,119 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.whoiswatching {
+  width: 370px;
+  height: 0px;
+}
+.whostxt {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffa260;
+  font-size: 3rem;
+  position: relative;
+  top: 100px;
+  left: 450px;
+  text-align: center;
+}
+.facelogin {
+  width: 100px;
+  height: 0px;
+}
+.facelogin img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 120px;
+  left: 380px;
+}
+.facelogin1 {
+  width: 100px;
+  height: 0px;
+}
+
+.facelogin1 img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: -209px;
+  left: 580px;
+}
+
+.tejaswi {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  position: relative;
+  left: 480px;
+  top: 50px;
+}
+.bhargav {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  position: relative;
+  left: 80px;
+  top: -275px;
+  left: 680px;
+}
+.managetxt {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  border-color: white;
+  border: solid;
+  position: absolute;
+  top: 520px;
+  left: 550px;
+  font-weight: lighter;
+  padding: 10px;
+}
+.entry {
+  width: 1280px;
+  height: 609px;
+}
+.entrypage {
+  background-color: #151b29;
+  width: 1280px;
+  min-height: 630px;
+}
+.choice-box {
+  width: 200px;
+  height: 100px;
+  border: 1px solid #ffa260;
+  color: #ffa260;
+  transition: all 0.25s;
+  position: relative;
+  top: 200px;
+  left: 300px;
+  margin-left: 100px;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1f15c;
+}
+.choice-box2 {
+  width: 200px;
+  height: 100px;
+
+  position: relative;
+  margin-left: 160px;
+  top: 100px;
+  left: 500px;
+  border: 1px solid #ffa260;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1f15c;
+}
+.ambulance {
+  color: #ffa260;
+
+  text-align: center;
+  font-size: 2rem;
+  position: relative;
+  top: 30px;
+}
+.consultation {
+  color: #ffa260;
+
+  text-align: center;
+  font-size: 2rem;
+  position: relative;
+  top: 30px;
+}

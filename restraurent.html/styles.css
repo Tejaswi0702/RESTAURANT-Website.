@@ -1,0 +1,397 @@
+* {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.banner {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-image: url("bg.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1));
+
+  width: 1280px;
+  height: 100vh;
+  color: white;
+}
+.mainheading1 {
+  position: relative;
+  top: 250px;
+  left: -18px;
+  font-size: 4.3rem;
+  text-transform: uppercase;
+
+  font-weight: bolder;
+}
+
+.maincontent {
+  position: relative;
+  top: 250px;
+  left: -18px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.maincontentsub {
+  position: relative;
+  top: 250px;
+  left: -18px;
+  font-weight: 300;
+  font-style: italic;
+}
+.ourmenulink {
+  position: relative;
+  top: 252px;
+  left: -18px;
+  color: white;
+  background-color: #ff0157;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-decoration: none;
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+  transition: 1s;
+}
+.ourmenulink:hover {
+  letter-spacing: 6px;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.logo {
+  position: fixed;
+  top: 40px;
+  left: 120px;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.logodot {
+  color: #ff0157;
+}
+.navbar2 {
+  position: fixed;
+  top: 40px;
+  left: 800px;
+}
+ul li a {
+  padding-left: 20px;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.1em;
+}
+
+header.sticky {
+  background: white;
+  padding: 40px 100px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+header.sticky .logo {
+  color: #111;
+}
+
+header.sticky .navbar2 li a {
+  color: #111;
+}
+header.sticky .navbar2 li a:hover {
+  color: #ff0157;
+}
+.about {
+  position: relative;
+  top: 100px;
+  left: 160px;
+  min-height: 100%;
+  width: 500px;
+}
+.aboutheading {
+  position: relative;
+  top: -50px;
+  font-weight: 100px;
+  font-weight: lighter;
+  left: 170px;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+.lettera {
+  color: #ff0157;
+}
+.aboutusimg {
+  position: relative;
+  top: -470px;
+  left: 800px;
+  object-fit: cover;
+}
+.aboutuscontent {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+}
+.menutitle {
+  position: relative;
+  top: -400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1rem;
+}
+.menuheading {
+  text-transform: capitalize;
+  font-size: 2rem;
+  word-spacing: 3px;
+  font-weight: lighter;
+}
+.menucontent {
+  position: relative;
+  top: 40px;
+  font-family: cursive;
+}
+.letterm {
+  text-transform: uppercase;
+  color: #ff0157;
+  font-size: 2.2rem;
+}
+.lettero {
+  text-transform: uppercase;
+  color: #ff0157;
+  font-size: 2.2rem;
+}
+
+.menu .content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.menu .content .box {
+  width: 340px;
+  margin: 20px;
+  border: 15px solid #fff;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.8);
+}
+.menu .content .box .menuimg {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+.menu .content .box .menuimg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.fullmenu {
+  position: relative;
+  top: -380px;
+}
+.menu .content .box .text {
+  padding: 15px 0 5px;
+}
+.menu .content .box .text .menuitem {
+  font-weight: 400px;
+  color: #111;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.viewalllink {
+  position: relative;
+  top: -240px;
+}
+.fullexperts {
+  position: relative;
+  top: 140px;
+}
+.expert .content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.expert .content .box {
+  width: 250px;
+  margin: 15px;
+}
+.expert .content .box .menuimg {
+  position: relative;
+
+  width: 100%;
+  height: 300px;
+}
+.expert .content .box .menuimg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.fullexpert2 {
+  position: relative;
+  top: -200px;
+}
+.expert .content .box .text {
+  padding: 15px 0 5px;
+}
+
+.expert .content .box .text .menuitem {
+  font-weight: 400px;
+  color: #111;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.testimonials {
+  background: url("bg2.jpg");
+  background-size: cover;
+}
+.menutitle2 {
+  color: white;
+}
+.menucontent2 {
+  color: white;
+  position: relative;
+  left: -30px;
+}
+.testimonials .content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.testimonials .content .box {
+  width: 340px;
+  margin: 20px;
+  padding: 40px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.testimonials .content .box .menuimg {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.testimonials .content .box .menuimg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.testifull {
+  position: relative;
+  top: 30px;
+  left: 470px;
+}
+
+.testimonials .content .box .text {
+  text-align: center;
+}
+.menuitem {
+  text-transform: capitalize;
+  font-weight: bold;
+  position: relative;
+  top: 15px;
+  font-size: 1rem;
+  color: #ff0157;
+}
+
+.testimonials .content .box .text .text2 {
+  color: #666;
+  font-style: italic;
+}
+.contactfull {
+  position: relative;
+  top: 400px;
+}
+.contact {
+  background: url("pexels-anna-guerrero-1765005.jpg");
+  height: 700px;
+}
+.contactform {
+  padding: 75px 50px;
+  background: #fff;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin-top: 50px;
+  position: relative;
+  top: -300px;
+}
+.contactform h3 {
+  color: #111;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.contactform .inputbox {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea {
+  width: 100%;
+  border: 1px solid #555;
+  padding: 10px;
+  color: #111;
+  outline: none;
+  font-size: 16px;
+  font-weight: 300;
+  resize: none;
+}
+.contactform .inputbox input[type="submit"] {
+  font-size: 1em;
+  color: #fff;
+  background: #ff0157;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  max-width: 100px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  header,
+  header .sticky {
+    padding: 10px 20px;
+  }
+  header .navbar2 {
+    display: none;
+  }
+}
+.sendtxt {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.contactfull2 {
+  height: 700px;
+}
